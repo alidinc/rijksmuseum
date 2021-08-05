@@ -9,21 +9,35 @@
 /* Begin PBXBuildFile section */
 		DAE4ABD226BB2544003FBD44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE4ABD126BB2544003FBD44 /* AppDelegate.swift */; };
 		DAE4ABD426BB2544003FBD44 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE4ABD326BB2544003FBD44 /* SceneDelegate.swift */; };
-		DAE4ABD626BB2544003FBD44 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE4ABD526BB2544003FBD44 /* ViewController.swift */; };
 		DAE4ABD926BB2544003FBD44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAE4ABD726BB2544003FBD44 /* Main.storyboard */; };
 		DAE4ABDB26BB2546003FBD44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAE4ABDA26BB2546003FBD44 /* Assets.xcassets */; };
 		DAE4ABDE26BB2546003FBD44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAE4ABDC26BB2546003FBD44 /* LaunchScreen.storyboard */; };
+		DAE4ABF126BB2979003FBD44 /* ArtObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE4ABF026BB2979003FBD44 /* ArtObject.swift */; };
+		DAE4ABF326BB2D89003FBD44 /* ArtworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE4ABF226BB2D89003FBD44 /* ArtworkController.swift */; };
+		DAE4ABF526BB2E24003FBD44 /* ArtObjectCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE4ABF426BB2E24003FBD44 /* ArtObjectCollectionViewController.swift */; };
+		DAE4ABF726BB2FC2003FBD44 /* ArtworkCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE4ABF626BB2FC2003FBD44 /* ArtworkCollectionViewCell.swift */; };
+		DAE4ABF926BB30CA003FBD44 /* ArtObjectError.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE4ABF826BB30CA003FBD44 /* ArtObjectError.swift */; };
+		DAE4ABFD26BB31D7003FBD44 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE4ABFC26BB31D7003FBD44 /* UIViewController+Extension.swift */; };
+		DAE4ABFF26BB32A6003FBD44 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE4ABFE26BB32A6003FBD44 /* Constants.swift */; };
+		DAE4AC0126BB62A5003FBD44 /* ArtObjectDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE4AC0026BB62A5003FBD44 /* ArtObjectDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DAE4ABCE26BB2544003FBD44 /* rijksmuseum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rijksmuseum.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAE4ABD126BB2544003FBD44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DAE4ABD326BB2544003FBD44 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DAE4ABD526BB2544003FBD44 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DAE4ABD826BB2544003FBD44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DAE4ABDA26BB2546003FBD44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DAE4ABDD26BB2546003FBD44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DAE4ABDF26BB2546003FBD44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAE4ABF026BB2979003FBD44 /* ArtObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtObject.swift; sourceTree = "<group>"; };
+		DAE4ABF226BB2D89003FBD44 /* ArtworkController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtworkController.swift; sourceTree = "<group>"; };
+		DAE4ABF426BB2E24003FBD44 /* ArtObjectCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtObjectCollectionViewController.swift; sourceTree = "<group>"; };
+		DAE4ABF626BB2FC2003FBD44 /* ArtworkCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtworkCollectionViewCell.swift; sourceTree = "<group>"; };
+		DAE4ABF826BB30CA003FBD44 /* ArtObjectError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtObjectError.swift; sourceTree = "<group>"; };
+		DAE4ABFC26BB31D7003FBD44 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		DAE4ABFE26BB32A6003FBD44 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		DAE4AC0026BB62A5003FBD44 /* ArtObjectDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtObjectDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +70,94 @@
 		DAE4ABD026BB2544003FBD44 /* rijksmuseum */ = {
 			isa = PBXGroup;
 			children = (
-				DAE4ABD126BB2544003FBD44 /* AppDelegate.swift */,
-				DAE4ABD326BB2544003FBD44 /* SceneDelegate.swift */,
-				DAE4ABD526BB2544003FBD44 /* ViewController.swift */,
-				DAE4ABD726BB2544003FBD44 /* Main.storyboard */,
-				DAE4ABDA26BB2546003FBD44 /* Assets.xcassets */,
-				DAE4ABDC26BB2546003FBD44 /* LaunchScreen.storyboard */,
-				DAE4ABDF26BB2546003FBD44 /* Info.plist */,
+				DAE4ABE726BB288D003FBD44 /* Model */,
+				DAE4ABE826BB2894003FBD44 /* Views */,
+				DAE4ABEB26BB28E1003FBD44 /* Controllers */,
+				DAE4ABE926BB2899003FBD44 /* Helpers+Extensions */,
+				DAE4ABE526BB2727003FBD44 /* Resources */,
 			);
 			path = rijksmuseum;
+			sourceTree = "<group>";
+		};
+		DAE4ABE526BB2727003FBD44 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DAE4ABD126BB2544003FBD44 /* AppDelegate.swift */,
+				DAE4ABD326BB2544003FBD44 /* SceneDelegate.swift */,
+				DAE4ABDA26BB2546003FBD44 /* Assets.xcassets */,
+				DAE4ABDF26BB2546003FBD44 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DAE4ABE626BB27A2003FBD44 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				DAE4ABD726BB2544003FBD44 /* Main.storyboard */,
+				DAE4ABDC26BB2546003FBD44 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		DAE4ABE726BB288D003FBD44 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DAE4ABF026BB2979003FBD44 /* ArtObject.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DAE4ABE826BB2894003FBD44 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DAE4ABEA26BB28A5003FBD44 /* CustomViews */,
+				DAE4ABE626BB27A2003FBD44 /* Storyboards */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DAE4ABE926BB2899003FBD44 /* Helpers+Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DAE4ABF826BB30CA003FBD44 /* ArtObjectError.swift */,
+				DAE4ABFC26BB31D7003FBD44 /* UIViewController+Extension.swift */,
+				DAE4ABFE26BB32A6003FBD44 /* Constants.swift */,
+			);
+			path = "Helpers+Extensions";
+			sourceTree = "<group>";
+		};
+		DAE4ABEA26BB28A5003FBD44 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				DAE4ABF626BB2FC2003FBD44 /* ArtworkCollectionViewCell.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		DAE4ABEB26BB28E1003FBD44 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DAE4ABED26BB28EF003FBD44 /* ModelControllers */,
+				DAE4ABEC26BB28EB003FBD44 /* ViewControllers */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		DAE4ABEC26BB28EB003FBD44 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				DAE4ABF426BB2E24003FBD44 /* ArtObjectCollectionViewController.swift */,
+				DAE4AC0026BB62A5003FBD44 /* ArtObjectDetailViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		DAE4ABED26BB28EF003FBD44 /* ModelControllers */ = {
+			isa = PBXGroup;
+			children = (
+				DAE4ABF226BB2D89003FBD44 /* ArtworkController.swift */,
+			);
+			path = ModelControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,9 +230,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DAE4ABD626BB2544003FBD44 /* ViewController.swift in Sources */,
+				DAE4ABFD26BB31D7003FBD44 /* UIViewController+Extension.swift in Sources */,
 				DAE4ABD226BB2544003FBD44 /* AppDelegate.swift in Sources */,
+				DAE4ABF526BB2E24003FBD44 /* ArtObjectCollectionViewController.swift in Sources */,
+				DAE4ABF126BB2979003FBD44 /* ArtObject.swift in Sources */,
+				DAE4AC0126BB62A5003FBD44 /* ArtObjectDetailViewController.swift in Sources */,
+				DAE4ABF326BB2D89003FBD44 /* ArtworkController.swift in Sources */,
 				DAE4ABD426BB2544003FBD44 /* SceneDelegate.swift in Sources */,
+				DAE4ABF726BB2FC2003FBD44 /* ArtworkCollectionViewCell.swift in Sources */,
+				DAE4ABF926BB30CA003FBD44 /* ArtObjectError.swift in Sources */,
+				DAE4ABFF26BB32A6003FBD44 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,7 +388,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GD7GT762TS;
-				INFOPLIST_FILE = rijksmuseum/Info.plist;
+				INFOPLIST_FILE = rijksmuseum/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,7 +407,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GD7GT762TS;
-				INFOPLIST_FILE = rijksmuseum/Info.plist;
+				INFOPLIST_FILE = rijksmuseum/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
